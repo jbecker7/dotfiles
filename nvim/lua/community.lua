@@ -7,6 +7,8 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.pack.java" }, -- add Java language support
+  { import = "astrocommunity.lsp.nvim-java" }, -- opt-in to nvim-java for LSP
   { import = "astrocommunity.colorscheme.dracula" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.pack.lua" },

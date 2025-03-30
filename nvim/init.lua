@@ -30,6 +30,10 @@ vim.api.nvim_set_keymap('i', '<Right>', '<Nop>', { noremap = true, silent = true
 vim.api.nvim_set_keymap('n', '<C-d>', '<C-d>zz', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<C-u>', '<C-u>zz', { noremap = true, silent = true })
 
+vim.api.nvim_set_keymap('n', '<space>x', ':.lua<CR>', {noremap=true, silent=true})
+vim.api.nvim_set_keymap('v', '<space>x', ':.lua<CR>', {noremap=true, silent=true})
+vim.api.nvim_set_keymap('n', '<space><space>x', '<cmd>source %<CR>', {noremap=true, silent=true})
+
 
 -- Setting the wiki root directory
 vim.g.wiki_root = '~/wikivim'
