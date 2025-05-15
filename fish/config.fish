@@ -32,6 +32,9 @@ function run_bash_script
     bash $argv
 end
 
+# Alias for Love2D
+alias love="/Applications/love.app/Contents/MacOS/love"
+
 # Init tools
 zoxide init fish | source
 starship init fish | source

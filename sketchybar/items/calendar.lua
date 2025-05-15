@@ -44,6 +44,24 @@ sbar.add("bracket", { cal.name }, {
 -- Padding item required because of bracket
 sbar.add("item", { position = "right", width = settings.group_paddings })
 
+-- Map English weekdays to Chinese
+local day_map = {
+  ["Sun"] = "星期日",
+  ["Mon"] = "星期一",
+  ["Tue"] = "星期二",
+  ["Wed"] = "星期三",
+  ["Thu"] = "星期四",
+  ["Fri"] = "星期五",
+  ["Sat"] = "星期六"
+}
+
 cal:subscribe({ "forced", "routine", "system_woke" }, function(env)
-  cal:set({ icon = os.date("%a. %d %b."), label = os.date("%H:%M") })
+  local weekday = os.date("%a")
+  local chinese_day = day_map[weekday] or weekday
+  local chinese_date = os.date("%m月%d日 ") .. chinese_day
+  local time = os.date("%H:%M")
+  cal:set({
+    icon = chinese_date,
+    label = time
+  })
 end)
