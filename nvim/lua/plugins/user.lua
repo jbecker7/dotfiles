@@ -53,6 +53,13 @@ return {
     end,
   },
 
+   {
+    "nvim-telescope/telescope.nvim",
+    keys = {
+      { "<leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Live Grep" },
+    },
+  },
+
   {
     "windwp/nvim-autopairs",
     config = function(plugin, opts)
