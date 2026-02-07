@@ -1,0 +1,17 @@
+themes {
+    chinese-minimalist {
+        // minimalist color scheme matching sketchybar
+        // Base colors
+        fg 245 245 245      // #f5f5f5 - White
+        bg 10 10 10         // #0a0a0a - Very dark background
+        black 26 26 26      // #1a1a1a - Deep black
+        red 200 16 46       // #c8102e - red
+        green 107 107 107   // #6b6b6b - Subtle gray (muted)
+        yellow 212 175 55   // #d4af37 - Gold accent
+        blue 107 107 107    // #6b6b6b - Muted gray
+        magenta 107 107 107 // #6b6b6b - Muted gray
+        cyan 107 107 107    // #6b6b6b - Muted gray
+        white 245 245 245   // #f5f5f5 - Pure white
+        orange 212 175 55   // #d4af37 - Gold (for orange)
+    }
+}

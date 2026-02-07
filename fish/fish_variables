@@ -1,8 +1,17 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ELEVENLABS_API_KEY:sk_709153e43b4138073b9b60e381b7daaf88ca999e42852b3c
+SETUVAR --export ELEVENLABS_MODEL_ID:eleven_multilingual_v2
+SETUVAR --export ELEVENLABS_SIMILARITY:1\x2e0
+SETUVAR --export ELEVENLABS_SPEAKER_BOOST:1
+SETUVAR --export ELEVENLABS_STABILITY:1\x2e0
+SETUVAR --export ELEVENLABS_STRICT:1
+SETUVAR --export ELEVENLABS_STYLE:1\x2e0
+SETUVAR --export ELEVENLABS_VOICE_ID:b08S8NkpVhh3JfB3sowe
 SETUVAR --export JAVA_HOME:/Users/jcb/Library/Java/JavaVirtualMachines/corretto\x2d17\x2e0\x2e12/Contents/Home
 SETUVAR MAILCHECK:0
 SETUVAR --export --path MANPATH:/Users/jcb/\x2elocal/share/man\x1e/usr/share/man\x1e/usr/local/share/man\x1e/Library/TeX/Distributions/\x2eDefaultTeX/Contents/Man\x1e/Applications/kitty\x2eapp/Contents/Resources/man\x1e
+SETUVAR --export OPENAI_API_KEY:sk\x2dproj\x2d86Gw7Eu2b2VeMJIV32NPT3BlbkFJNWi8xgZxomx0nXJpCh08
 SETUVAR VIRTUAL_ENV_DISABLE_PROMPT:true
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
@@ -240,26 +249,26 @@ SETUVAR _tide_prompt_94989:\x1d
 SETUVAR _tide_prompt_96473:\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b51\x3b51\x3b51m\x1b\x5b38\x3b2\x3b214\x3b214\x3b214m\x1b\x5b48\x3b2\x3b51\x3b51\x3b51m\x20\uf179\x20\x1b\x5b38\x3b2\x3b51\x3b51\x3b51m\x1b\x5b48\x3b2\x3b52\x3b101\x3b164m\ue0b0\x1b\x5b48\x3b2\x3b52\x3b101\x3b164m\x20\x40PWD\x40\x20\x1b\x5b38\x3b2\x3b52\x3b101\x3b164m\x1b\x5b48\x3b2\x3b196\x3b160\x3b0m\ue0b0\x1b\x5b48\x3b2\x3b196\x3b160\x3b0m\x20\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\uf1d3\x20\x1b\x5b37m\x1b\x5b38\x3b2\x3b0\x3b0\x3b0mmain\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x20\x2b1\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x20\x211\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x20\x3f14\x20\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b196\x3b160\x3b0m\ue0b0\x1e\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b46\x3b52\x3b54m\ue0b2\x1b\x5b38\x3b2\x3b78\x3b154\x3b6m\x1b\x5b48\x3b2\x3b46\x3b52\x3b54m\x20\u2714\x20\x1b\x5b38\x3b2\x3b196\x3b160\x3b0m\x1b\x5b48\x3b2\x3b46\x3b52\x3b54m\ue0b2\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b48\x3b2\x3b196\x3b160\x3b0m\x20\uf252\x204m\x2012s\x20\x1b\x5b38\x3b2\x3b211\x3b215\x3b207m\x1b\x5b48\x3b2\x3b196\x3b160\x3b0m\ue0b2\x1b\x5b38\x3b2\x3b0\x3b0\x3b0m\x1b\x5b48\x3b2\x3b211\x3b215\x3b207m\x2014\x3a46\x3a44\x20\x1b\x28B\x1b\x5bm\x1b\x28B\x1b\x5bm\x1b\x5b38\x3b2\x3b211\x3b215\x3b207m
 SETUVAR _tide_right_items:status\x1ecmd_duration\x1econtext\x1ejobs\x1enode\x1epython\x1erustc\x1ejava\x1eruby\x1ego\x1ekubectl\x1eaws\x1etime
 SETUVAR fish_color_autosuggestion:0087ff
-SETUVAR fish_color_cancel:ff5555\x1e\x2d\x2dreverse
-SETUVAR fish_color_command:ff0000
-SETUVAR fish_color_comment:eeeeee
+SETUVAR fish_color_cancel:c8102e\x1e\x2d\x2dreverse
+SETUVAR fish_color_command:d4af37
+SETUVAR fish_color_comment:6b6b6b
 SETUVAR fish_color_cwd:50fa7b
 SETUVAR fish_color_cwd_root:red
-SETUVAR fish_color_end:ffb86c
-SETUVAR fish_color_error:ff5555
-SETUVAR fish_color_escape:ff79c6
+SETUVAR fish_color_end:d4af37
+SETUVAR fish_color_error:c8102e
+SETUVAR fish_color_escape:d4af37
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:bd93f9
 SETUVAR fish_color_host_remote:\x1d
-SETUVAR fish_color_keyword:\x1d
-SETUVAR fish_color_normal:f8f8f2
-SETUVAR fish_color_operator:50fa7b
+SETUVAR fish_color_keyword:d4af37
+SETUVAR fish_color_normal:f5f5f5
+SETUVAR fish_color_operator:d4af37
 SETUVAR fish_color_option:\x1d
-SETUVAR fish_color_param:ffd75f
-SETUVAR fish_color_quote:ffafd7
-SETUVAR fish_color_redirection:0087ff
-SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d44475a
-SETUVAR fish_color_selection:\x2d\x2dbackground\x3d44475a
+SETUVAR fish_color_param:f5f5f5
+SETUVAR fish_color_quote:f5f5f5
+SETUVAR fish_color_redirection:d4af37
+SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d1e1e1e
+SETUVAR fish_color_selection:\x2d\x2dbackground\x3d1e1e1e
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:8be9fd
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
@@ -278,7 +287,7 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3d44475a
 SETUVAR fish_pager_color_selected_completion:f8f8f2
 SETUVAR fish_pager_color_selected_description:6272a4
 SETUVAR fish_pager_color_selected_prefix:8be9fd
-SETUVAR --export fish_user_paths:/usr/local/texlive/2024basic/bin/universal\x2ddarwin\x1e/opt/homebrew/bin\x1e/opt/homebrew/lib/ruby/gems/3\x2e4\x2e0/bin\x1e/opt/homebrew/opt/ruby/bin\x1e/nix/var/nix/profiles/default/bin\x1e/usr/local/bin\x1e/opt/homebrew/opt/browsh
+SETUVAR --export fish_user_paths:/usr/local/texlive/2024basic/bin/universal\x2ddarwin\x1e/Users/jcb/\x2egem/ruby/3\x2e4\x2e0/bin\x1e/opt/homebrew/bin\x1e/opt/homebrew/lib/ruby/gems/3\x2e4\x2e0/bin\x1e/opt/homebrew/opt/ruby/bin\x1e/nix/var/nix/profiles/default/bin\x1e/usr/local/bin\x1e/opt/homebrew/opt/browsh
 SETUVAR tide_aws_bg_color:normal
 SETUVAR tide_aws_color:FF9900
 SETUVAR tide_aws_icon:\uf270
