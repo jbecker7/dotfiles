@@ -29,20 +29,22 @@ sketchybar --bar height=36 \
 source "$ITEM_DIR/spaces.sh"
 
 ############## RIGHT ITEMS ##############
-# Linux bar style - add separator before right section
-sketchybar --add item separator right \
-	--set separator icon="│" \
-	icon.font="$FONT:Regular:14.0" \
-	icon.color=0xff3a3a3a \
-	icon.padding_left=8 \
-	icon.padding_right=8 \
-	background.drawing=off
-
-source "$ITEM_DIR/music.sh"
+# Order: first added = rightmost. Date at the edge, then clock, battery, volume, then separator.
+# source "$ITEM_DIR/music.sh"
 source "$ITEM_DIR/date.sh"
 source "$ITEM_DIR/clock.sh"
 source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/volume.sh"
+# source "$ITEM_DIR/music.sh"
+
+# Separator at left of right section
+# sketchybar --add item separator right \
+# 	--set separator icon="│" \
+# 	icon.font="$FONT:Regular:14.0" \
+# 	icon.color=0xff3a3a3a \
+# 	icon.padding_left=8 \
+# 	icon.padding_right=8 \
+# 	background.drawing=off
 
 #################### FINALIZE ####################
 sketchybar --update

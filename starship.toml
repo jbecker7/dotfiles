@@ -1,14 +1,22 @@
 # Minimalist Theme for Starship Prompt
 # Matching sketchybar color scheme
 
+# Two-line prompt: context on line 1, cursor on line 2
+format = "$directory$git_branch$fill$time$cmd_duration$git_status$line_break$character"
+add_newline = true
+
+[line_break]
+disabled = false
+
 [character]
-success_symbol = "[➜](bold #f5f5f5)"
-error_symbol = "[➜](bold #c8102e)"
+success_symbol = "[➜](bold #f5f5f5) "
+error_symbol = "[➜](bold #c8102e) "
 
 [directory]
 style = "bold #f5f5f5"
 truncation_length = 3
 truncate_to_repo = true
+format = "[$path]($style) "
 
 [git_branch]
 symbol = " "
@@ -16,7 +24,7 @@ style = "bold #d4af37"
 format = "on [$symbol$branch]($style) "
 
 [git_status]
-style = "bold #6b6b6b"  # Gray for status, red only for actual errors
+style = "bold #6b6b6b"
 format = "($all_status$ahead_behind )"
 
 [cmd_duration]
@@ -30,7 +38,7 @@ time_format = "%H:%M:%S"
 style = "bold #6b6b6b"
 format = "at [$time]($style) "
 
-# Minmalist color palette reference:
+# Minimalist color palette reference:
 # Background: #0a0a0a (Very dark)
 # Foreground: #f5f5f5 (White)
 # Red: #c8102e (Red)
